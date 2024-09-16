@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.block {
+  border-radius: 10px;
+  width: 420px;
+  height: 250px;
+  background: linear-gradient(90.95deg, #b0852c -0.52%, #d8c05b 126.88%);
+  padding: 5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  background: url("./black.avif") no-repeat center/cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.border {
+  border: 1.5px solid #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.text {
+  font-family: "Playfair";
+  -webkit-text-fill-color: #0000;
+  background: linear-gradient(90.95deg, #b0852c -0.52%, #d8c05b 126.88%);
+  -webkit-background-clip: text;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.project {
+  font-family: "Playfair";
+  text-align: center;
+  -webkit-text-fill-color: #0000;
+  background: linear-gradient(90.95deg, #b0852c -0.52%, #d8c05b 126.88%);
+  -webkit-background-clip: text;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.img {
+  position: relative;
+}
+.borders {
+  background: #000;
+  position: absolute;
+  left: 43px;
+  bottom: -6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-pro {
+  font-family: "Jacques Francois Shadow", serif;
+  -webkit-text-fill-color: #0000;
+  background: linear-gradient(90.95deg, #b0852c -0.52%, #d8c05b 126.88%);
+  -webkit-background-clip: text;
+  font-size: 38px;
+  font-weight: 700;
+  position: relative;
+  z-index: 1;
+  text-transform: uppercase;
+}
+
+.shadow-text {
+  font-family: "Playfair";
+  text-align: center;
+  -webkit-text-fill-color: #0000;
+  background: linear-gradient(90.95deg, #b0852c -0.52%, #d8c05b 126.88%);
+  -webkit-background-clip: text;
+  font-size: 16px;
+  font-weight: 500;
+}
